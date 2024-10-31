@@ -3,7 +3,7 @@ import { readXlsxFile } from "./readFile.js";
 import axios from "axios";
 import { config } from "dotenv";
 
-config({path:"../../../.env"});
+config();
 
 const filesAtATimeEnv = process.env.FILES_CHECK_AT_A_TIME;
 const processFileUrl = process.env.PROCESS_FILE_URL;

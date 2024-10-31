@@ -4,7 +4,7 @@ import connectMongo from "../db/config.js";
 import { join } from "path";
 import { config } from "dotenv";
 
-config({path:"../../../.env"});
+config();
 
 const filesAtATimeEnv = process.env.FILES_CHECK_AT_A_TIME
 const intervalRepeatTime = parseInt(process.env.INTERVAL_REPEAT_TIME)

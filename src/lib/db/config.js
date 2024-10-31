@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { config } from "dotenv";
 
-config({path:"../../../.env"});
+config();
 
 const MONGO_URI = process.env.MONGODB_URI;
 const MONGO_NAME = process.env.MONGODB_NAME;
